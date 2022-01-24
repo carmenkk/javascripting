@@ -1,7 +1,8 @@
-function multiply(a,b){
-  return a * b;
-}
-
-const result = multiply(2,4);
-
-console.log(result);
+var flavor = "strawberry";
+var vessel = "cone";
+var toppings = "cookies";
+if ((flavor === "vanilla"||flavor === "chocolate")&&(vessel === "cone"|| vessel === "bowl")&&(toppings === "sprinkles"||toppings === "peanuts")) 
+    {
+      onsole.log("I'd like two scoops of "+ flavor +" ice cream in a " + vessel +" with "+ toppings +".");
+    }
+     
